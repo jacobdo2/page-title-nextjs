@@ -1,12 +1,11 @@
 import Head from "next/head";
 import Nav from "../components/Nav";
-import Tracking from "../components/Tracking";
 
-export default function Home() {
+export default function SomePage() {
   return (
     <div className="container">
       <Head>
-        <title>Index</title>
+        <title>Some page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
